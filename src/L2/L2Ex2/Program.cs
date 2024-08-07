@@ -1,0 +1,15 @@
+﻿double firstNumber, secondNumber;
+string userName;
+Console.WriteLine("Введите ваше имя");
+userName = Console.ReadLine();
+Console.WriteLine($"Привет {userName}!");
+Console.WriteLine("Теперь дай мне число");
+firstNumber = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("А теперь другое");
+secondNumber = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"Сумма {firstNumber} и {secondNumber} равно {firstNumber + secondNumber}.");
+Console.WriteLine($"Результат вычитания {secondNumber} из {firstNumber} равно {firstNumber - secondNumber}.");
+Console.WriteLine($"Произведение {firstNumber} и {secondNumber} равно {firstNumber * secondNumber}.");
+Console.WriteLine($"Деление {firstNumber} на {secondNumber} равно {firstNumber / secondNumber:F2}.");
+Console.WriteLine($"Остаток деления {firstNumber} на {secondNumber} равен {firstNumber % secondNumber}.");
+//Console.ReadKey();
