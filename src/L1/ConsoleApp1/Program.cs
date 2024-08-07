@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Ваше первое приложение на C# и .NET!");
-Console.ReadKey();
+﻿using System;
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Output text to the screen.
+            Console.WriteLine("Ваше первое приложение на C# и .NET!");
+            Console.ReadKey();
+        }
+    }
+}
+
